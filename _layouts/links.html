@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <div class="links">
+
+      <header class="links-header text-center">
+        <h1 class="links-title">INIRDIN links</h1>
+        1997* | Czechia | Brno
+        <br>
+        inirdin.eventis@gmail.com
+      </header>
+      
+      <div class="links-page-list">
+        <div class="links-page-button">
+          <a href="/"><span class="links-page-title text-center">Website - Portfolio</span></a>
+        </div>
+        
+        <br>
+        {%- if site.youtube_username -%}
+        <div class="links-page-button">
+          <a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}">
+            <svg class="links-page-icons"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg> 
+            <span class="links-page-title text-center">YouTube</span>
+          </a>
+        </div>
+        {%- endif -%}
+        {%- if site.soundcloud_username -%}
+        <div class="links-page-button">
+          <a href="https://www.soundcloud.com/{{ site.soundcloud_username| cgi_escape | escape }}">
+            <svg class="links-page-icons"><use xlink:href="{{ '/assets/minima-social-icons.svg#soundcloud' | relative_url }}"></use></svg> 
+            <span class="links-page-title text-center">Soundcloud</span>
+          </a>
+        </div>
+        {%- endif -%}
+        {%- for mst in site.mastodon -%}
+          {%- if mst.username and mst.instance -%}  
+            <div class="links-page-button">
+              <a href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}">
+                <svg class="links-page-icons"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg> 
+                <span class="links-page-title text-center">Mastodon.ART</span>
+              </a>
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if site.instagram_username -%}
+        <div class="links-page-button">
+          <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}">
+            <svg class="links-page-icons"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg> 
+            <span class="links-page-title text-center">Instagram</span>
+          </a>
+        </div>
+        {%- endif -%}
+        {%- if site.github_username -%}
+        <div class="links-page-button">
+          <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
+            <svg class="links-page-icons"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> 
+            <span class="links-page-title text-center">GitHub</span>
+          </a>
+        </div>
+        {%- endif -%}
+        {%- if site.itch_username -%}
+        <div class="links-page-button">
+          <a href="https://{{ site.itch_username| escape }}.itch.io">
+            <svg class="links-page-icons"><use xlink:href="{{ '/assets/minima-social-icons.svg#itch' | relative_url }}"></use></svg> 
+            <span class="links-page-title text-center">itch.io</span>
+          </a>
+        </div>
+        {%- endif -%}
+        {%- if site.kofi_username -%}
+        <div class="links-page-button">
+          <a href="https://ko-fi.com/{{ site.kofi_username| cgi_escape | escape }}">
+            <svg class="links-page-icons"><use xlink:href="{{ '/assets/minima-social-icons.svg#kofi' | relative_url }}"></use></svg> 
+            <span class="links-page-title text-center">ko-fi</span>
+          </a>
+        </div>
+        {%- endif -%}
+      </div>    
+    </div>
+  </body>
+</html>
+
+

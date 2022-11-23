@@ -1,0 +1,27 @@
+<ul class="social-media-list">
+  <li>{%- if site.youtube_username -%}<li><a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg> <span class="username"></span></a></li>{%- endif -%}</li>
+  <li>{%- if site.soundcloud_username -%}<li><a href="https://www.soundcloud.com/{{ site.soundcloud_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#soundcloud' | relative_url }}"></use></svg> <span class="username"></span></a></li>{%- endif -%}</li>
+  <li>{%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<li><a href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg> <span class="username"></span></a></li>{%- endif -%}{%- endfor -%}</li>
+  <li>{%- if site.instagram_username -%}<li><a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg> <span class="username"></span></a></li>{%- endif -%}</li>
+
+  <li>{%- if site.github_username -%}<li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username"></span></a></li>{%- endif -%}</li>
+  <li>{%- if site.itch_username -%}<li><a href="https://{{ site.itch_username| escape }}.itch.io"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#itch' | relative_url }}"></use></svg> <span class="username"></span></a></li>{%- endif -%}</li>
+  <li>{%- if site.kofi_username -%}<li><a href="https://ko-fi.com/{{ site.kofi_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#kofi' | relative_url }}"></use></svg> <span class="username"></span></a></li>{%- endif -%}</li>
+</ul>
+
+  <!--
+  {%- if site.twitter_username -%}<li><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">Twitter</span></a></li>{%- endif -%}
+  {%- if site.rss -%}<li><a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
+
+
+[Website - Portfolio](/){: .link-button}
+
+[Youtube](https://www.youtube.com/c/Inirdin){: .link-button}
+[Soundcloud](https://soundcloud.com/inirdin){: .link-button}
+[Mastodon](https://mastodon.art/@inirdin){: .link-button}
+[Instagram](https://www.instagram.com/_inirdin/){: .link-button}
+
+[Github](https://github.com/Inirdin){: .link-button}
+[Itch.io](https://inirdin.itch.io/){: .link-button}
+[ko-fi](https://ko-fi.com/inirdin){: .link-button}¨
+  -->
