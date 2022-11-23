@@ -8,4 +8,4 @@ description: abstraktní perokresba
 ---
 Vertikální abstraktní perokresba na papír A4 perem LAMY Vista.
 
-![Vertikálníabstraktní perokresba, která působí jako exploze neznámé hmoty. Černobílá.](/assets/images/2022-11-19-koncentrace/koncentrace.png)
+![Vertikálníabstraktní perokresba, která působí jako exploze neznámé hmoty. Černobílá.](/assets/images/projects/2022-11-19-koncentrace/koncentrace.png)
