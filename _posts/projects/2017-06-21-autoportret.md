@@ -11,7 +11,7 @@ Klauzurní video projekt prvního ročníku v rámci předmětu audiovizuální 
 ## Hudba
 Pokus o kombinaci všech mých hudebních poloh. Electronica, Dubstep, vliv UK Garage, Ambientu, Trapu a Rocku. Mastering: Džian Baban
 <audio class="AudioPlayer" controls style="width: 90%">
-<source src="audio/Inirdin - Autoportrét.flac" type="audio/flac">
+<source src="/assets/projects/2017-06-21-autoportret/Inirdin%20-%20Autoportr%C3%A9t.flac" type="audio/flac">
 Your browser does not support the audio element.
 </audio> 
 

@@ -12,16 +12,22 @@ Malá experimentální hra co vznikla pro GMTK Game Jam 2019. Téma tohoto game 
 
 ## Soundtrack
 ### 1 - Void
+Single patch in NI Massive doing really annoying ultra low sub bass.
+Jeden patch v NI Massive co dělá velmi otravný sub bass.
+
 <audio class="AudioPlayer" controls style="width: 90%">
-<source src="audio/Inirdin - Void.flac" type="audio/flac">
+<source src="/assets/projects/2019-08-04-dimension/Inirdin%20-%20Void.flac" type="audio/flac">
 Your browser does not support the audio element.
 </audio>
 
 ### 2 - Space
+Paulstretched tail of free piano vst with multiple layers of filtered white noise and sawtooth wave.
+Dozvuk klavíru z free vst natažený Paulstretchem s mnoha vrstvami filtrovaného bílého šumu a pilové vlny.
+
 <audio class="AudioPlayer" controls style="width: 90%">
-<source src="audio/Inirdin - Space.flac" type="audio/flac">
+<source src="/assets/projects/2019-08-04-dimension/Inirdin%20-%20Space.flac" type="audio/flac">
 Your browser does not support the audio element.
-</audio> 
+</audio>
 
 ## Screenshoty
 ![screenshot HUDu](/assets/projects/2019-08-04-dimension/screenshot1.png)
