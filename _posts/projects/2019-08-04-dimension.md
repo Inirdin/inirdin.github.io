@@ -15,7 +15,7 @@ Malá experimentální hra co vznikla pro GMTK Game Jam 2019. Téma tohoto game 
 Single patch in NI Massive doing really annoying ultra low sub bass.
 Jeden patch v NI Massive co dělá velmi otravný sub bass.
 
-<audio class="AudioPlayer" controls style="width: 90%">
+<audio class="AudioPlayer" controls>
 <source src="/assets/projects/2019-08-04-dimension/Inirdin%20-%20Void.flac" type="audio/flac">
 Your browser does not support the audio element.
 </audio>
@@ -24,7 +24,7 @@ Your browser does not support the audio element.
 Paulstretched tail of free piano vst with multiple layers of filtered white noise and sawtooth wave.
 Dozvuk klavíru z free vst natažený Paulstretchem s mnoha vrstvami filtrovaného bílého šumu a pilové vlny.
 
-<audio class="AudioPlayer" controls style="width: 90%">
+<audio class="AudioPlayer" controls>
 <source src="/assets/projects/2019-08-04-dimension/Inirdin%20-%20Space.flac" type="audio/flac">
 Your browser does not support the audio element.
 </audio>

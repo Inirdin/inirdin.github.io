@@ -332,3 +332,35 @@ Links page - Linktree
 .text-center{
   text-align: center
 }
+
+.AudioPlayer {
+  width: 100%;
+}
+
+.itch-iframe{
+  width: 100%;
+}
+
+.video-container-16-9 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.video-container-1-1 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.youtube-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
